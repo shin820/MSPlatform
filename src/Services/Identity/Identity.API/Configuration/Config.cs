@@ -64,8 +64,11 @@ namespace Identity.API.Configuration
                 {
                     ClientId = "mvc",
                     ClientName = "MVC Client",
-                    AllowedGrantTypes = GrantTypes.Implicit,
-
+                    AllowedGrantTypes = GrantTypes.HybridAndClientCredentials,
+                    ClientSecrets =
+                    {
+                        new Secret("secret".Sha256())
+                    },
                     // where to redirect to after login
                     RedirectUris = { "http://localhost:5001/signin-oidc" },
 
@@ -75,8 +78,10 @@ namespace Identity.API.Configuration
                     AllowedScopes = new List<string>
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.StandardScopes.Profile
-                    }
+                        IdentityServerConstants.StandardScopes.Profile,
+                        "identity"
+                    },
+                    AllowOfflineAccess=true
                 }
             };
         }
