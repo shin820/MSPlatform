@@ -36,7 +36,7 @@ namespace TestMvcClient
                 {
                     options.SignInScheme = "Cookies";
 
-                    options.Authority = "http://localhost:5000";
+                    options.Authority = "http://localhost:8000";
                     options.RequireHttpsMetadata = false;
 
                     options.ClientId = "mvc";

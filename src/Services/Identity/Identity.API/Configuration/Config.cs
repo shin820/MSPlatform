@@ -70,10 +70,10 @@ namespace Identity.API.Configuration
                         new Secret("secret".Sha256())
                     },
                     // where to redirect to after login
-                    RedirectUris = { "http://localhost:5001/signin-oidc" },
+                    RedirectUris = { "http://localhost:5010/signin-oidc" },
 
                     // where to redirect to after logout
-                    PostLogoutRedirectUris = { "http://localhost:5001/signout-callback-oidc" },
+                    PostLogoutRedirectUris = { "http://localhost:5010/signout-callback-oidc" },
 
                     AllowedScopes = new List<string>
                     {

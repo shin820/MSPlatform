@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Pivotal.Discovery.Client;
 
 namespace Identity.API
 {
@@ -24,6 +25,7 @@ namespace Identity.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDiscoveryClient(Configuration);
             services.AddMvc();
 
             services.AddIdentityServer()
@@ -36,7 +38,7 @@ namespace Identity.API
             //services.AddAuthentication("Bearer")
             //    .AddIdentityServerAuthentication(options =>
             //    {
-            //        options.Authority = "http://localhost:5000";
+            //        options.Authority = "http://localhost:8000";
             //        options.RequireHttpsMetadata = false;
 
             //        options.ApiName = "identity";
@@ -56,6 +58,8 @@ namespace Identity.API
 
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
+
+            app.UseDiscoveryClient();
         }
     }
 }
