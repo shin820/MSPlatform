@@ -1,0 +1,11 @@
+D:\SourceCode\MSPlatform\src\Web\TestMvcClient\bin\Debug\netcoreapp2.0\TestMvcClient.deps.json
+D:\SourceCode\MSPlatform\src\Web\TestMvcClient\bin\Debug\netcoreapp2.0\TestMvcClient.runtimeconfig.json
+D:\SourceCode\MSPlatform\src\Web\TestMvcClient\bin\Debug\netcoreapp2.0\TestMvcClient.runtimeconfig.dev.json
+D:\SourceCode\MSPlatform\src\Web\TestMvcClient\bin\Debug\netcoreapp2.0\TestMvcClient.dll
+D:\SourceCode\MSPlatform\src\Web\TestMvcClient\obj\Debug\netcoreapp2.0\TestMvcClient.csprojAssemblyReference.cache
+D:\SourceCode\MSPlatform\src\Web\TestMvcClient\obj\Debug\netcoreapp2.0\TestMvcClient.csproj.CoreCompileInputs.cache
+D:\SourceCode\MSPlatform\src\Web\TestMvcClient\obj\Debug\netcoreapp2.0\TestMvcClient.AssemblyInfoInputs.cache
+D:\SourceCode\MSPlatform\src\Web\TestMvcClient\obj\Debug\netcoreapp2.0\TestMvcClient.AssemblyInfo.cs
+D:\SourceCode\MSPlatform\src\Web\TestMvcClient\bin\Debug\netcoreapp2.0\TestMvcClient.pdb
+D:\SourceCode\MSPlatform\src\Web\TestMvcClient\obj\Debug\netcoreapp2.0\TestMvcClient.dll
+D:\SourceCode\MSPlatform\src\Web\TestMvcClient\obj\Debug\netcoreapp2.0\TestMvcClient.pdb
