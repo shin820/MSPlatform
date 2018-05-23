@@ -1,7 +1,3 @@
 .vs
-/src/Services/Test/TEST1.API/TEST1.API/bin/Debug/netcoreapp2.0
-/src/Services/Test/TEST1.API/TEST1.API/obj
-/src/Services/Test/TEST2.API/TEST2.API/bin/Debug/netcoreapp2.0
-/src/Services/Test/TEST2.API/TEST2.API/obj
-/src/Services/Test/TEST3.API/TEST3.API/bin/Debug/netcoreapp2.0
-/src/Services/Test/TEST3.API/TEST3.API/obj
+bin/
+obj/
